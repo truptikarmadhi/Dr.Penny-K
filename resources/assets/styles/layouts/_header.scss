@@ -1,0 +1,16 @@
+.header {
+    z-index: 99;
+
+    &.header-fixed {
+        background: $color-FAFAFA !important;
+        box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    }
+
+    &.header-fixed-os {
+        transform: translateY(0px);
+    }
+
+    &.hidden {
+        transform: translateY(-130px);
+    }
+}

@@ -1,0 +1,42 @@
+.privacy-section {
+    .left-content {
+        ul {
+            top: 215px;
+
+            li {
+                &.active {
+                    a {
+                        background-color: rgba($color: $color-212121, $alpha: 0.2);
+                    }
+                }
+            }
+        }
+    }
+
+    .single-content {
+        &:first-child {
+            padding-top: 0 !important;
+        }
+
+        p {
+            font-size: $font16;
+            line-height: $leading22;
+            letter-spacing: $space-0_16;
+            color: $color-050505;
+            font-family: "articulat-cf", sans-serif;
+
+            &:has(strong) {
+                margin-bottom: 8px;
+            }
+
+            strong {
+                font-size: $font28;
+                line-height: $leading34;
+                letter-spacing: $space-0_56;
+                color: $black;
+                font-family: "articulat-cf", sans-serif;
+                font-weight: 400 !important;
+            }
+        }
+    }
+}

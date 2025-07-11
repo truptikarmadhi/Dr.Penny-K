@@ -1,0 +1,82 @@
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+    appearance: none !important;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+}
+
+
+.btnA {
+    height: 55px;
+    padding-left: 46px;
+    padding-right: 46px;
+
+    &.bg-212121-btn {
+        border: 1px solid $color-212121;
+        background-color: $color-212121;
+        color: $white;
+
+        &:hover {
+            border: 1px solid $color-212121;
+            background-color: transparent;
+            color: $color-212121;
+        }
+    }
+
+    &.arrow-btn {
+        width: 180px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        transition: all 0.3s ease-in-out;
+
+        span {
+            transform: translateX(10px);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .arrow-icon {
+            width: 20px;
+            transform: translateX(-10px); // small negative to hide it partially
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+
+    &:hover {
+        span {
+            transform: translateX(0px);
+        }
+
+        .arrow-icon {
+            transform: translateX(0);
+            opacity: 1;
+            visibility: visible;
+            filter: invert(1);
+        }
+    }
+}
+
+.btnB {
+    position: relative;
+    padding-bottom: 8px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 13px;
+        height: 2px;
+        background-color: $color-212121;
+        transition: all 0.3s ease-in-out;
+    }
+
+    &:hover {
+        &::before {
+            width: 100%;
+        }
+    }
+}

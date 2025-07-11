@@ -1,0 +1,10 @@
+.offcanvas {
+    &.about-offcanvas {
+        width: 643px !important;
+        background-color: $color-F7FBFC !important;
+
+        .offcanvas-body {
+            padding: 127px 58px;
+        }
+    }
+}

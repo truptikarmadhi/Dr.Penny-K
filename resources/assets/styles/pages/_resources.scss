@@ -1,0 +1,117 @@
+.resources-section {
+    .filter-button-wrapper {
+        .filter-button {
+            height: 32px;
+
+            &.active {
+                background-color: $color-212121 !important;
+                color: $white !important;
+            }
+        }
+    }
+}
+
+.resources-open-section {
+    .left-content {
+        height: calc(100vh - 80px);
+    }
+
+    .article-img {
+        height: 72px;
+        width: 72px;
+    }
+
+    .resources-open-img {
+        height: 580px;
+    }
+
+    .resource-description {
+        p {
+            font-size: $font16;
+            line-height: $leading22;
+            letter-spacing: $space-0_16;
+            color: $color-4A4A4A;
+            font-family: "articulat-cf", sans-serif;
+
+            &:has(strong) {
+                margin-bottom: 8px;
+            }
+
+            strong {
+                font-size: $font28 !important;
+                line-height: $leading34;
+                letter-spacing: $space-0_56;
+                margin-bottom: 15px !important;
+                color: $black;
+                font-family: "articulat-cf", sans-serif;
+                font-weight: 400 !important;
+            }
+        }
+
+        ul {
+            padding-left: 18px !important;
+            margin-bottom: 0px !important;
+
+            li {
+                font-size: $font16;
+                line-height: $leading22;
+                letter-spacing: $space-0_16;
+                color: $color-4A4A4A;
+                margin-bottom: 15px !important;
+                font-family: "articulat-cf", sans-serif;
+
+                &::marker {
+                    color: $color-A5B6BE;
+                }
+            }
+        }
+    }
+
+    .resource-content {
+        p {
+            font-size: $font16;
+            line-height: $leading22;
+            letter-spacing: $space-0_16;
+            color: $color-4A4A4A;
+            font-family: "articulat-cf", sans-serif;
+
+            &:has(strong) {
+                margin-bottom: 8px;
+            }
+
+            strong {
+                font-size: $font28 !important;
+                line-height: $leading34;
+                letter-spacing: $space-0_56;
+                color: $black;
+                font-family: "articulat-cf", sans-serif;
+                font-weight: 400 !important;
+            }
+        }
+
+        blockquote {
+            position: relative;
+            padding-left: 60px;
+            padding-right: 15%;
+
+            p {
+                font-size: $font26 !important;
+                line-height: $leading34;
+                margin-bottom: 15px !important;
+                color: $black;
+                font-family: "articulat-cf", sans-serif;
+                font-weight: 400 !important;
+            }
+
+            &::before {
+                content: '"';
+                position: absolute;
+                top: 30px;
+                left: 0;
+                font-size: 116px;
+                color: $color-212121;
+                font-family: "articulat-cf", sans-serif;
+            }
+        }
+    }
+}

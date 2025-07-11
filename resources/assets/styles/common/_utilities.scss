@@ -1,0 +1,309 @@
+.bg-F7FBFC {
+    background-color: $color-F7FBFC;
+}
+
+.bg-172426 {
+    background-color: $color-172426;
+}
+
+.bg-1F6678 {
+    background-color: $color-1F6678;
+}
+
+.bg-A5B6BE {
+    background-color: $color-A5B6BE;
+}
+
+.bg-FFFFFF {
+    background-color: $color-FFFFFF;
+}
+
+.bg-212121 {
+    background-color: $color-212121;
+}
+
+.bg-FAFAFA {
+    background-color: $color-FAFAFA;
+}
+
+.bg-707070 {
+    background-color: $color-707070;
+}
+
+.bg-191919 {
+    background-color: $color-191919;
+}
+
+.bg-4A4A4A {
+    background-color: $color-4A4A4A;
+}
+
+.bg-0000000A {
+    background-color: $color-0000000A;
+}
+
+.bg-050505 {
+    background-color: $color-050505;
+}
+
+.text-F7FBFC {
+    color: $color-F7FBFC;
+}
+
+.text-172426 {
+    color: $color-172426;
+}
+
+.text-1F6678 {
+    color: $color-1F6678;
+}
+
+.text-A5B6BE {
+    color: $color-A5B6BE;
+}
+
+.text-FFFFFF {
+    color: $color-FFFFFF;
+}
+
+.text-212121 {
+    color: $color-212121;
+}
+
+.text-FAFAFA {
+    color: $color-FAFAFA;
+}
+
+.text-707070 {
+    color: $color-707070;
+}
+
+.text-191919 {
+    color: $color-191919;
+}
+
+.text-0000000A {
+    color: $color-0000000A;
+}
+
+.text-4A4A4A {
+    color: $color-4A4A4A;
+}
+
+.text-050505 {
+    color: $color-050505;
+}
+
+.font14 {
+    font-size: $font14;
+}
+
+.font16 {
+    font-size: $font16;
+}
+
+.font18 {
+    font-size: $font18;
+}
+
+.font20 {
+    font-size: $font20;
+}
+
+.font22 {
+    font-size: $font22;
+}
+
+.font26 {
+    font-size: $font26;
+}
+
+.font28 {
+    font-size: $font28;
+}
+
+.font30 {
+    font-size: $font30;
+}
+
+.font54 {
+    font-size: $font54;
+}
+
+.font64 {
+    font-size: $font64;
+}
+
+.space-0_14 {
+    letter-spacing: $space-0_14;
+}
+
+.space-0_16 {
+    letter-spacing: $space-0_16;
+}
+
+.space-0_22 {
+    letter-spacing: $space-0_22;
+}
+
+.space-0_56 {
+    letter-spacing: $space-0_56;
+}
+
+.leading14 {
+    line-height: $leading14;
+}
+
+.leading16 {
+    line-height: $leading16;
+}
+
+.leading20 {
+    line-height: $leading20;
+}
+
+.leading22 {
+    line-height: $leading22;
+}
+
+.leading28 {
+    line-height: $leading28;
+}
+
+.leading30 {
+    line-height: $leading30;
+}
+
+.leading34 {
+    line-height: $leading34;
+}
+
+.leading60 {
+    line-height: $leading60;
+}
+
+.leading70 {
+    line-height: $leading70;
+}
+
+.leading72 {
+    line-height: $leading72;
+}
+
+.radius5 {
+    border-radius: $radius5;
+}
+
+.radius6 {
+    border-radius: $radius6;
+}
+
+.radius10 {
+    border-radius: $radius10;
+}
+
+.radius15 {
+    border-radius: $radius15;
+}
+
+.radius20 {
+    border-radius: $radius20;
+}
+
+@include media-breakpoint-down(lg) {
+    .res-font14 {
+        font-size: $font14;
+    }
+
+    .res-font16 {
+        font-size: $font16;
+    }
+
+    .res-font18 {
+        font-size: $font18;
+    }
+
+    .res-font20 {
+        font-size: $font20;
+    }
+
+    .res-font22 {
+        font-size: $font22;
+    }
+
+    .res-font26 {
+        font-size: $font26;
+    }
+
+    .res-font28 {
+        font-size: $font28;
+    }
+
+    .res-font30 {
+        font-size: $font30;
+    }
+
+    .res-font54 {
+        font-size: $font54;
+    }
+
+    .res-font64 {
+        font-size: $font64;
+    }
+
+    .res-space0_14 {
+        letter-spacing: $space-0_14
+    }
+
+    .res-space0_16 {
+        letter-spacing: $space-0_16
+    }
+
+    .res-space0_22 {
+        letter-spacing: $space-0_22
+    }
+
+    .res-space0_56 {
+        letter-spacing: $space-0_56
+    }
+
+    .res-leading14 {
+        line-height: $leading14;
+    }
+
+    .res-leading16 {
+        line-height: $leading16;
+    }
+
+    .res-leading20 {
+        line-height: $leading20;
+    }
+
+    .res-leading22 {
+        line-height: $leading22;
+    }
+
+    .res-leading28 {
+        line-height: $leading28;
+    }
+
+    .res-leading30 {
+        line-height: $leading30;
+    }
+
+    .res-leading34 {
+        line-height: $leading34;
+    }
+
+    .res-leading60 {
+        line-height: $leading60;
+    }
+
+    .res-leading70 {
+        line-height: $leading70;
+    }
+
+    .res-leading72 {
+        line-height: $leading72;
+    }
+}
